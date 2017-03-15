@@ -1,0 +1,41 @@
+body {
+	background-image:url(images/limelight-3-1188290-1598x1062.jpg);
+	background-color: #191919;
+	font-family: Montserrat;
+}
+
+h1 {
+	color: #F0F8FF;
+	font-size: 60px;
+	text-align: center;
+}
+
+img {
+	width=85%
+}
+
+a {
+	color: #424949;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+nav a {
+	color: #F0F8FF;
+	font-size: 20px;
+	font-style: italic;
+	margin-right: 45px;
+}
+
+nav {
+	text-align: right;
+}
+
+#slogan {
+	color: #F0F8FF;
+	font-style: italic;
+	text-align: right;
+	margin-right: 50px;
+}
+
