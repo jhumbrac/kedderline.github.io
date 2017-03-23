@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Space+Mono');
+
+body {
+	background-image:url(images/limelight-3-1188290-1598x1062.jpg);
+	background-color: #000000;
+	font-family: Space Mono;
+}
+
+h1 {
+	color: #F0F8FF;
+	font-size: 80px;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+h3{
+	font-color: #ffffff;
+}
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+a {
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+nav a {
+	color: #F0F8FF;
+	font-size: 20px;
+	margin-right: 45px;
+}
+
+nav {
+	text-align: right;
+}
+
+#slogan {
+	color: #F0F8FF;
+	font-style: italic;
+	text-align: right;
+	margin-right: 50px;
+}
+
+#contact {
+	text-align:center;
+}
+
+#quote {
+	color: #FFFFFF
+	text-align: right;
+}
