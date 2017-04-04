@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli');
+
+body {
+	background-image:url(images/limelight-3-1188290-1598x1062.jpg);
+	background-color: #000000;
+	font-family: Muli;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article p {
+	padding: 0 20px;
+}
+
+article h3 {
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div, section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	color: #F0F8FF;
+	font-size: 60px;
+	text-align: left;
+	font-family: Montserrat;
+}
+
+h2, h3 {
+	font-color: #ffffff;
+}
+
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+a {
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+nav {
+	text-align: right;
+}
+
+nav a {
+	color: #F0F8FF;
+	font-size: 20px;
+	margin-right: 45px;
+}
+
+nav a:hover {
+	background-color: #dd0000;
+}
+
+main {
+	width: 720px;
+	float: left;
+}
+
+article {
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+aside {
+	padding-top: 20px;
+	float: right;
+	width: 320px;
+}
+
+footer {
+	clear: both;
+	background-color: #eeeeee;
+	padding: 30px;
+	line-height: .5em;
+}
+
+footer p {
+	text-align: center;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+
+.right {
+  text-align: right;
+}
+
+.quote {
+	color: #F0F8FF;
+	font-style: italic;
+	text-align: right;
+	padding: 20px;
+}
+
+
