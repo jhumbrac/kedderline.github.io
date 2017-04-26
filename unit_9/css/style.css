@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lato');
+
+body {
+	background-color: #F5FFFA;
+	background-image:url(images/hero.jpg);
+	font-family:Didact Gothic;
+	font-size:20 px;
+	/*setting body font size and how it affects em*/
+}
+
+nav {	
+	text-align: left;
+	background-color: #262626;
+	padding: 1em 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	padding: .5em 1.5em;
+	font-size: 1.25em;
+	}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+h2 {
+	padding: .75em 1em 0 1em;
+	margin: .5em;
+	font-size: 2.5em;
+}
+
+
+p {
+	padding: 1em 1em;
+	margin: 0 1.25em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+article {
+	color: #fff;
+	background-color: #262626;
+	padding: 5% 3% 5% 1%;
+	float: left;
+	width: 64%;
+	/*height: 21.5em;*/
+	/*using percentage v em for padding?*/
+	/*calculating padding*/
+	/*how do you make the article and aside the same height for responsive web*/
+	/*how do you use the overflow property*/
+}
+
+article p{
+	text-align: left;
+}
+
+aside {
+	background-color: #929292;
+	padding: 5% 3%;
+	float: right;
+	width: 25.8%;
+}
+
+
+aside p{
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 700;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color: gray;
+}
+
+hr {
+	color: #D3D3D3;
+}
+
+footer {
+	font-size: .65em;
+	color: gray;
+}
+
+.logo {
+	padding: 1em 2em;
+	margin: .5em;
+	display:block;
+}
+
+.column {
+	width: 30%;
+  	height: 22em;
+  	float: left;
+	padding: 3% 1.6666%;
+	margin: auto;
+	text-align: center;
+}
+
+.clearfix:after {
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: " ";
+  	clear: both;
+  	height: 0;
+  	/*I'd like to understand this better*/
+}
+.info {
+	width: 15%;
+  	/*/*height: 22em;*/
+  	float: left;
+	padding: 2% 15% 2% 15%;
+	margin: auto;
+	text-align: center;
+	/*is this best way to do this?*/
+}
+
+#hero{
+	background:url(../images/hero.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 20em;
+	padding: 0;
+}
+
+#mobile {
+	display: none;
+}
+
+
+#arrow {
+	text-align:right;
+	/*how could I have this be fixed?*/
+}
+
+@media only screen and (max-width: 1260px) {
+	article, aside {
+		float:none;
+		width: auto;
+		padding: auto;
+	/*why is background color bleeding into services section from 565px-1260 
+	when do you use max and min width?*/
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1.25em;
+	}
+	p {
+		font-size: 1.25em;
+	}
+aside p{
+	font-size: .85em;
+}
+	
+@media only screen and (max-width: 565px){	
+	article, aside {
+		float:none;
+		width: auto;
+		padding: auto;
+	}
+	
+	nav a {
+			float: none;
+			width: auto;
+			padding: .25em 0;
+			display: none;
+		}
+
+		nav:hover a {
+			display: block;
+		}
+
+	.column {
+		float:none;
+		width: auto;
+		height: auto;
+	}	
+	.info{
+		float:none;
+		width: auto;
+		height: auto;
+	}	
+	#mobile {
+		display: block;
+	}
+}
