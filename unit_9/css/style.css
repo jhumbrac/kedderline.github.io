@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lato');
-
+* { margin:0; padding:0; box-sizing:border-box;}
 body {
 	background-color: #F5FFFA;
 	background-image:url(images/hero.jpg);
-	font-family:Didact Gothic;
-	font-size:20 px;
+	font-family:'Didact Gothic';
+	font-size:20px;
 	/*setting body font size and how it affects em*/
 }
-
+section {
+	padding:4em 0;
+}
 nav {	
 	text-align: left;
 	background-color: #262626;
@@ -19,7 +21,7 @@ nav a {
 	color: #fff;
 	padding: .5em 1.5em;
 	font-size: 1.25em;
-	}
+}
 
 nav a:link {
     color: white;
@@ -35,30 +37,30 @@ nav a:hover {
 }
 
 h2 {
-	padding: .75em 1em 0 1em;
-	margin: .5em;
+	/* padding: .75em 1em 0 1em; */
+	/* margin: .5em; */
 	font-size: 2.5em;
 }
 
 
 p {
-	padding: 1em 1em;
-	margin: 0 1.25em;
+	/* padding: 1em 1em; */
+	margin-top: 1.25em;
 	text-align: center;
-	font-size: 1.5em;
 }
 
 article {
 	color: #fff;
 	background-color: #262626;
-	padding: 5% 3% 5% 1%;
+	padding: 4em;
 	float: left;
-	width: 64%;
-	/*height: 21.5em;*/
+	width: 66.66%;
+	
 	/*using percentage v em for padding?*/
 	/*calculating padding*/
 	/*how do you make the article and aside the same height for responsive web*/
 	/*how do you use the overflow property*/
+	height: 100%;
 }
 
 article p{
@@ -67,9 +69,11 @@ article p{
 
 aside {
 	background-color: #929292;
-	padding: 5% 3%;
-	float: right;
-	width: 25.8%;
+	padding: 4em;
+	float: left;
+	width: 32.33%;
+	margin-left: 1%;
+	height: 100%;
 }
 
 
@@ -111,11 +115,9 @@ footer {
 }
 
 .column {
-	width: 30%;
-  	height: 22em;
-  	float: left;
-	padding: 3% 1.6666%;
-	margin: auto;
+	width: 33.33%;
+	float: left;
+	padding: 1em;
 	text-align: center;
 }
 
@@ -129,15 +131,16 @@ footer {
   	/*I'd like to understand this better*/
 }
 .info {
-	width: 15%;
-  	/*/*height: 22em;*/
-  	float: left;
-	padding: 2% 15% 2% 15%;
-	margin: auto;
-	text-align: center;
-	/*is this best way to do this?*/
+ 	display: inline-block;
+	margin: 1em;
+}
+.example {
+    height: 35em;
 }
 
+#contact {
+    text-align: center;
+}
 #hero{
 	background:url(../images/hero.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
@@ -155,7 +158,9 @@ footer {
 
 
 #arrow {
-	text-align:right;
+	position:fixed;
+	bottom:.25em;
+	right:.25em;
 	/*how could I have this be fixed?*/
 }
 
